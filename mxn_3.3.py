@@ -6,3 +6,5 @@ true_w = [2, 3.4]
 true_b = 4.2
 features = nd.random.normal(scale=1, shape=(num_examples, num_inputs))
 print(features)
+
+
