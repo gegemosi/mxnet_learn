@@ -12,6 +12,15 @@ class WithLearning:
     def test(self):
         print("test")
 
+def hello():
+    print('hello')
+
+
+
 with WithLearning() as wl:
     print("in with")
     print(wl)
+
+wl = WithLearning()
+with wl.test():
+    print("int hello with")
