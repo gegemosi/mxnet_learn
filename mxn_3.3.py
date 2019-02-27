@@ -1,4 +1,4 @@
-
+# coding: UTF-8
 # 生成数据集
 from mxnet import autograd, nd
 
